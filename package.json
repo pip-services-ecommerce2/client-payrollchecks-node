@@ -39,7 +39,7 @@
         "retest": "tsc && mocha -t 1000 -R spec -u tdd --recursive ./obj/test"
     },
     "dependencies": {
-        "service-payrollchecks-node": "^1.0.*",
+        "service-payrollchecks-node": "git+https://github.com/pip-services-ecommerce2/client-payrollchecks-node.git",
         "pip-services3-commons-nodex": "^1.0.*",
         "pip-services3-components-nodex": "^1.4.*",
         "pip-services3-rpc-nodex": "^1.2.*"
